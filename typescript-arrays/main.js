@@ -1,0 +1,18 @@
+'use strict';
+const colors = ['red', 'white', 'blue'];
+console.log('value of colors[0]: ', colors[0]);
+console.log('value of colors[0]: ', colors[1]);
+console.log('value of colors[0]: ', colors[2]);
+const color1 = colors[0];
+const color2 = colors[1];
+const color3 = colors[2];
+const americaIs = `America is ${color1}, ${color2}, ${color3}`;
+console.log(americaIs);
+colors[2] = 'green';
+const newColor1 = colors[0];
+const newColor2 = colors[1];
+const newColor3 = colors[2];
+const mexicoIs = `Mexico is ${newColor1}, ${newColor2}, ${newColor3}`;
+console.log(mexicoIs);
+console.log('value of colors: ', colors);
+console.log('type of colors: ', typeof colors);
