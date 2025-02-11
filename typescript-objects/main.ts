@@ -6,6 +6,19 @@ interface StudentProps {
   previousOccupation?: string;
 }
 
+interface Vehicle {
+  make: string;
+  model: string;
+  year: number;
+  color?: string;
+  isConvertible?: boolean;
+}
+
+interface Pet {
+  name?: string;
+  kind?: string;
+}
+
 const student: StudentProps = {
   firstName: 'Laura Grace',
   lastName: 'Dela Cruz',
@@ -23,14 +36,6 @@ console.log('value of previousOccupation: ', student.previousOccupation);
 console.log('value of student: ', student);
 console.log('type of student: ', typeof student);
 
-interface Vehicle {
-  make: string;
-  model: string;
-  year: number;
-  color?: string;
-  isConvertible?: boolean;
-}
-
 const vehicle: Vehicle = {
   make: 'Acura',
   model: 'TSX',
@@ -42,11 +47,6 @@ vehicle['color'] = 'silver';
 
 console.log('value of vehicle: ', vehicle);
 console.log('type of vehicle: ', typeof vehicle);
-
-interface Pet {
-  name?: string;
-  kind?: string;
-}
 
 const pet: Pet = {
   name: 'Eleanor',
