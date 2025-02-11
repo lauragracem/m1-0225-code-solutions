@@ -20,3 +20,16 @@ console.log(mexicoIs);
 
 console.log('value of colors: ', colors);
 console.log('type of colors: ', typeof colors);
+
+const students: string[] = ['Amadeus', 'Rapha', 'Ines', 'Tobias'];
+
+const numberOfStudents: number = students.length;
+const thereAre: string = `There are ${numberOfStudents} students in the class.`;
+console.log(thereAre);
+
+const lastIndex: number = numberOfStudents - 1;
+const lastStudent: string = students[lastIndex];
+const lastStudentIs: string = `The last student in the array is ${lastStudent}`;
+console.log(lastStudentIs);
+console.log('value of students: ', students);
+console.log('type of: ', typeof students);
