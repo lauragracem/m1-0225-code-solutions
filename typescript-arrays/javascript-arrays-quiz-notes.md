@@ -8,7 +8,7 @@ Answer the following questions in the provided markdown file before turning in t
   Arrays are another way of storing data in list form.
 
 - Describe array literal notation.
-  Array literal notation uses brackets filled with a series of data assigned to a variable.
+  Array literal notation uses brackets and numbers to access arrays.
 
 - How are arrays different from "plain" objects?
   Arrays generally store a single type of data and have different built in properties and methods from objects. Also, arrays are indexes and objects are not.
