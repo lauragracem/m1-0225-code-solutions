@@ -2,7 +2,9 @@ const number: number = 9200;
 const street: string = 'Irvine Center Drive';
 const address: string = number + ' ' + street;
 
-console.log('LearningFuze:', address);
+const interpolatedString: string = `LearnFuze:${address}`;
+
+console.log(interpolatedString);
 
 const firstName: string = 'Uzair';
 const lastName: string = 'Ashraf';
@@ -17,13 +19,16 @@ const bio: string =
   age +
   ' years old.';
 
-console.log('Bio:', bio);
+const interpolatedString1: string = `Bio: ${bio}`;
+
+console.log(interpolatedString1);
 
 const fruit: string = 'apple';
 const item: string = 'pen';
 
-const applePen: string = fruit + item;
+const interpolatedString2: string = `I have a ${item}`;
+const interpolatedString3: string = `I have an ${fruit}`;
 
-console.log('I have a', item);
-console.log('I have an', fruit);
-console.log(applePen);
+console.log(interpolatedString2);
+console.log(interpolatedString3);
+console.log(`${fruit}${item}`);
