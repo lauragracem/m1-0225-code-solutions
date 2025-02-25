@@ -5,12 +5,16 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - How do block-level elements affect the document flow?
+  They start new lines and take up the width of the document.
 
 - How do inline elements affect the document flow?
+  They don't start new lines and don't take up the width of the document, by default.
 
 - What are the default width and height of a block-level element?
+  It takes the width of it's parent container and the height of it's content.
 
 - What are the default width and height of an inline element?
+  It takes the size of it's content.
 
 ## Notes
 
