@@ -5,12 +5,16 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the purpose of an HTML `form` element?
+  To create forms.
 
 - Give five examples of form control elements.
+  `<textarea>`, `<button>`, `<select>`, `<option>`, `<label>`
 
 - Give three examples of `type` attribute values for HTML `<input>` elements.
+  text, radio, checkbox
 
 - Is an HTML `<input>` element a block element or an inline element?
+  inline element
 
 ## Notes
 
