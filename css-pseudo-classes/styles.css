@@ -1,0 +1,29 @@
+button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: large;
+  border-radius: 0%;
+  border-color: lightgray;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(202, 199, 199);
+}
