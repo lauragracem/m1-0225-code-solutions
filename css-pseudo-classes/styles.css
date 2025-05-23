@@ -24,6 +24,6 @@ th {
   color: white;
 }
 
-.oddRow {
+tr:nth-child(even) {
   background-color: rgb(202, 199, 199);
 }
