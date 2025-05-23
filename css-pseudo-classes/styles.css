@@ -1,0 +1,14 @@
+button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: large;
+  border-radius: 0%;
+  border-color: lightgray;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
