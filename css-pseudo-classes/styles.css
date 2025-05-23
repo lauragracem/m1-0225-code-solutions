@@ -12,3 +12,18 @@ button:hover {
   background-color: black;
   color: white;
 }
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+.oddRow {
+  background-color: rgb(202, 199, 199);
+}
