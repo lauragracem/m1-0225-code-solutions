@@ -1,10 +1,3 @@
-/* .row {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-*/
-
 body {
   font-family: lato, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(255, 255, 255);
@@ -13,24 +6,31 @@ body {
 
 .container {
   text-align: center;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
 }
 
 .row {
   display: flex;
   justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 4px;
 }
 
 img {
-  height: 45px;
-  width: 45px;
+  height: 42px;
+  width: 42px;
   background-color: rgb(255, 255, 255);
 }
 
 .image-container {
-  background-color: rgb(225, 225, 192);
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,4 +41,12 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p {
+  margin-top: -10px;
+  font-size: 12px;
+  color: rgb(220, 219, 219);
 }
