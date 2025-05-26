@@ -1,0 +1,53 @@
+/*
+  margin
+  row
+  column */
+
+.container {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+.header {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-bottom: 2px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: Tiempos-Headline;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgb(51, 66, 97);
+}
+
+.nav-bar {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: small;
+}
+
+button {
+  background-color: rgb(51, 66, 97);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: small;
+}
