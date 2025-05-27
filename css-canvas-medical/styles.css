@@ -116,3 +116,48 @@ hr {
   font-size: smaller;
   line-height: 1.5;
 }
+
+/* row-3 */
+
+#row-3 {
+  background-color: rgb(249, 249, 249);
+  color: gray;
+}
+
+#h3-paragraph {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-top: 30px;
+}
+
+h3 {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: Tiempos-Headline;
+  font-size: 21px;
+  font-weight: 80;
+}
+
+#p-paragraph-2 {
+  font-size: smaller;
+  line-height: 1.5;
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  font-size: small;
+}
+
+#first-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#second-column {
+  display: flex;
+  flex-direction: column;
+}
