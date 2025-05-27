@@ -1,25 +1,36 @@
 /*
   margin
   row
-  column */
+  column
+  overlay */
+
+body {
+  display: flex;
+  justify-content: center;
+}
 
 .container {
+  max-width: 1000px;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
   font-family: Avenir, Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 .header {
   flex: 1;
-  margin-left: 50px;
-  margin-right: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-h1 {
+.column {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#h1-header {
   margin-bottom: 2px;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Tiempos-Headline;
@@ -44,10 +55,64 @@ h1 {
 button {
   background-color: rgb(51, 66, 97);
   color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   border: none;
   height: 35px;
   padding-left: 12px;
   padding-right: 12px;
   font-size: small;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(232, 232, 232);
+  border: none;
+}
+
+#image-paragraph {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+#button-2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 8px;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+}
+
+#h1-picture-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 61, 61, 0.3);
+}
+
+#h1-paragraph {
+  width: 45%;
+  margin: 50px;
+  color: white;
+}
+
+#h1-picture {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: Tiempos-Headline;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 50;
+}
+
+#p-picture {
+  font-size: smaller;
+  line-height: 1.5;
 }
