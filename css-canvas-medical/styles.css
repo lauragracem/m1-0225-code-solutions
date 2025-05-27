@@ -161,3 +161,80 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
+/* row-4 */
+
+#row-4-header {
+  padding-top: 20px;
+  color: gray;
+}
+
+#h1-row-4 {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: Tiempos-Headline;
+  font-weight: 100;
+  color: gray;
+  margin-bottom: 0;
+}
+
+#p-paragraph-3 {
+  font-size: 12px;
+}
+
+#button-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#row-4-button {
+  display: flex;
+  align-items: center;
+}
+
+/* row-5 */
+
+#row-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 90px;
+  background-color: rgb(83, 83, 83);
+  color: white;
+}
+
+.bottom-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+#h1-row-5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: Tiempos-Headline;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+#p-paragraph-4 {
+  padding-top: 7px;
+  font-size: smaller;
+}
+
+#bottom-menu-c2 {
+  padding-left: 150px;
+  font-size: smaller;
+}
+
+#bottom-menu-c3 {
+  padding-right: 50px;
+  font-size: smaller;
+}
+
+/* row 6 */
+
+.footer {
+  display: flex;
+}
