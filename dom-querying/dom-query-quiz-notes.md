@@ -5,6 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - Why do we log things to the console?
+  So we can see properties or objects of elements.
 
 - What is a "model"?
 
@@ -24,8 +25,10 @@ Answer the following questions in the provided markdown file before turning in t
   querySelectorAll()
 
 - Why might you want to assign the return value of a DOM query to a variable?
+  So you can just call on the variable instead of writing out `document.querySelector()` every time.
 
 - What `console` method allows you to inspect the properties of a DOM element object?
+  console.dir()
 
 - Why would a `<script>` tag need to be placed at the bottom of the HTML content instead of at the top?
   The browser needs to read through the HTML page before JavaScript can access them.
