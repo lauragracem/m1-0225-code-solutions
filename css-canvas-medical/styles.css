@@ -14,6 +14,7 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
   font-family: Avenir, Arial, Helvetica, sans-serif;
   position: relative;
 }
@@ -235,6 +236,18 @@ h3 {
 
 /* row 6 */
 
+#row-6 {
+  background-color: rgb(249, 249, 249);
+}
+
 .footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
+  color: gray;
+  font-size: smaller;
+}
+
+#footer-2 {
+  padding-left: 30px;
 }
